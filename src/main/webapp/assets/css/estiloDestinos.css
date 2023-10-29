@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+main{
+	padding: 0px 1%!important;
+}
+
+.card {
+	width: 28%;
+	min-width: 250px;
+	padding: 0px 0px 10px 0px;
+	border: 1px solid #cce7d0;
+	cursor: pointer;
+	box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.02);
+	transition: 0.2s ease;
+	position: relative !important;
+	margin: 15px;
+}
+
+.card:hover {
+	box-shadow: 3px 5px 6px rgb(201, 201, 201, .6);
+}
+
+image {
+	width: 1024px !important;
+	height: 763px !important;
+	margin: 0!important;
+}
+
+card-body {
+	padding: 0px 0px 10px 0px !important;
+}
+
+@media (max-width: 799px) {
+	.card {
+	    min-width: 98vw;
+	    justify-content: center;
+	    margin-left: 3%;
+	    margin-right: 3%;
+	    margin-bottom: 4%;
+	}
+
+	
+}
+

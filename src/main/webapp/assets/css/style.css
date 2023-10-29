@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --success: #14A44D;
+    --danger: #DC4C64;
+    --warning: #ffc107;
+    --info: #54B4D3;
+    --light: #FBFBFB;
+    --dark: #332D2D;
+    --color-background: #f6f6f9;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    padding-top: 70px;
+    background-color: var(--color-background);
+}
+
+.imagemPrincipal {
+    background-image: url(../image/praia-palmeiras-wallpaper.jpg); 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#datasContainer {
+    padding: 10px;
+}
+
+#simboloData {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+input[type="date"] {
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    font-family: monospace;
+    color: rgb(128, 128, 128);
+    cursor: text;
+}
+
+#datasContainer > input {
+    width: 140px;
+    margin: 0;
+    width: fit-content;
+}
+
+#btnBuscaPct {
+    transition: 0.3s ease;
+}
+
+#btnBuscaPct:hover {
+    transform: scale(1.05);
+    color: var(--light);
+    background-color: var(--primary);
+    font-weight: bold;
+}
+
+.carouselText {
+    background-color: rgba(0, 0, 0, 0.295);
+    background-position: center;
+    border-radius: 5px;
+}
+
+.mx-auto {
+    margin-top: -3rem!important;
+}
+
+.aviso {
+    text-align: center;
+    transition: 0.5s ease;
+    background-color: var(--warning);
+}
+
+.aviso:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: none;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.linksFooter {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.linksFooter:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.redeSocial {
+    cursor: pointer;
+}
+
+.redeSocial:hover {
+    color: var(--primary);
+    transform: scale(1.15);
+}
+
+.hero {
+    background-image: url(../image/vetor-hero.jpg);
+    background-position: center;
+    
+}
+
+#newsletter {
+    background-image: url(../image/travel-bg.jpg);
+}
+
+#newsletterIndex {
+    background-image: url(../image/travel-bg.jpg);
+}
+
+.textoEmail {
+    text-decoration: underline;
+    color: white!important;
+    background: rgba(45, 164, 122, .9);
+    width: fit-content;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Página Destino */
+mark {
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+.btnPromocao:hover {
+    color: var(--light);
+    background-color: var(--primary);
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.card-tag {
+    background-color: tomato;
+}
+
+/* Página Contato */
+
+#formularioContato {
+    background-color: rgba(221, 221, 221, 0.555);
+}
+
+.avisoPerfil {
+    position: fixed;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+@media (max-width: 799px) {
+	.avisoPerfil {
+	    top: 15%;
+	}
+
+	
+}
