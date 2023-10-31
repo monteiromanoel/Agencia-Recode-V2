@@ -137,7 +137,7 @@ int clienteID = (int) session.getAttribute("clienteID");
 						<div class="card text-black" style="border-radius: 25px;">
 							<div class="card-body p-md-5">
 								<div class="row justify-content-center">
-									<div class="col-xxl-4">
+									<div class="col-xxl-5">
 										
 										<form class="mx-1 my-3 mx-md-4" action="ConfirmaReserva"
 											id="formReserva" method="post">
